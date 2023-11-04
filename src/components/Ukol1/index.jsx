@@ -9,8 +9,8 @@ export const Ukol1 = () => {
     <>
       <h1>Úkol 1</h1>
       <label>
-        Login:
-        <input type="text" />
+        {login}:
+        <input type="text" onChange={(e) => setLogin(e.target.value)} />
       </label>
     </>
   );

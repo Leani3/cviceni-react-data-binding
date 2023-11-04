@@ -10,7 +10,11 @@ export const Ukol2 = () => {
       <h1>Úkol 2</h1>
       <label>
         Login:
-        <input type="text" />
+        <input
+          type="text"
+          onChange={(e) => setLogin(e.target.value)}
+          value={login}
+        />
       </label>
     </>
   );
